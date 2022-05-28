@@ -1,0 +1,22 @@
+#contenedor {
+  text-align: center;
+}
+
+#navegacion ul {
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  li {
+    list-style: none;
+  }
+}
+.activa {
+  background-color: gold;
+  padding: 0 10px;
+}
+.logo {
+  display: flex;
+}
+.logo img {
+  height: 50px;
+}
